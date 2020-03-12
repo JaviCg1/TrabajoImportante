@@ -22,7 +22,7 @@ header{
     margin: 0;
     padding-top: 10px;
     text-align: center;
-      height: 178px; 
+      height: 140px; 
     opacity: 90%;
     text-align: center;
     color:white;
@@ -46,6 +46,9 @@ header{
 section{
     margin:0 auto;
    text-align: center;
+    z-index: 89;
+   
+    
 }
 article{
 width: 60%;
@@ -84,6 +87,7 @@ footer{
     color: white;
     display: inline-flex;
     width: 100%;
+    
       
     
 }
@@ -134,13 +138,19 @@ form{
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) { 
-    
+    aside{
+        display: inline;
+    }
 }
 
 
 #her{
     background: black;
     height: 20px;
+}
+#imgnav{
+    width: 40px;
+    height: 40px;
 }
 nav{
     margin-top: 0px;
@@ -152,6 +162,7 @@ nav{
     padding-bottom: 10px;
     position: sticky;
     top: 0px;
+    z-index: 100;
     
 }
 
@@ -180,6 +191,13 @@ nav li:hover{
       background-color:white;
       color:black;
       }
+#luupa:hover{
+    background-color:black;
+      color:black;
+}
+#luupa{
+    padding: 0;
+}
 
 nav li:hover >a{
     background-color:white;
@@ -212,11 +230,19 @@ aside{
     transition-duration: 0.5s;
     padding: 0px;
     margin:0px;
+  
+    
+    
+    z-index: 98;
+   
+    
 }
  aside ul{
     margin-left: -40px;
     margin-top: 0px;
     margin-bottom: 0px;
+    
+     
     
 }
 aside li{
@@ -225,7 +251,8 @@ aside li{
     list-style: none;
     color:blue;
     opacity: 80%;
-    
+     
+   
 }
 aside li:hover > p{
     color:black;
@@ -275,4 +302,5 @@ aside:hover{
 .sticky + .content {
   padding-top: 60px;
 }
+
 

@@ -55,6 +55,7 @@ width: 60%;
     margin-bottom: 40px;
     margin-top: 40px;
     margin-left: 21%;
+    
 }
 #imm{
     width: 320px;
@@ -141,8 +142,30 @@ form{
     aside{
         display: inline;
     }
+    #imm{
+        width: 100%;
+    }
+    .noticia{
+        width: 100%;
+    }
+    #secheaderimg{
+        width: 80%;
+    }
+    
 }
-
+@media screen and   (min-width: 768px) and (max-width: 1000px) { 
+   
+    #secheaderimg{
+        margin-left: 3%;
+        width: 100%;
+    }
+    article{
+        margin-right: 0px;
+    }
+    .noticiario{
+        width: 90%;
+    }
+}
 
 #her{
     background: black;

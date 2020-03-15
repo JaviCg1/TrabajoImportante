@@ -16,6 +16,7 @@ body{
      margin: 0;
     padding: 0;
     width: 100%; 
+    
 }
 header{
     background-color: black; 
@@ -317,6 +318,12 @@ flex-wrap: wrap;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     
 }
+#footer:link, #footer:visited, #footer:active{
+    text-decoration: none;
+}
+#imgfoo{
+    margin-bottom: 25px;
+}
 #footer img{
     width: 100%;
     margin-left: 3%;
@@ -346,33 +353,11 @@ flex-wrap: wrap;
     margin-top: 110px;
     margin-bottom: 130px;
 }
-@media screen  and (max-width: 1000px) { 
-   
-    #secheaderimg{
-        margin-left: 3%;
-        width: 100%;
-    }
-    article{
-        margin-left: 15%;
-        width: 85%;
-    }
-    .noticiario{
-        width: 90%;
-    }
-    .imagen{
-        
-        width: 32%;
-    }
-     #imm{
-        width: 100%;
-    }
-    .noticia{
-        
-    }
-    .noticia h2{
-        font-size: 20px;
-    }
+#imgart{
+    width: 90%;
 }
+
+
 @media screen and (min-width: 321px) and (max-width: 768px) { 
     aside{
         display: inline;
@@ -421,5 +406,42 @@ flex-wrap: wrap;
 @media screen  and (max-width: 768px) { 
     aside{
         width: 0px;
+    }
     
+}
+@media screen  and (max-width: 1350px) { 
+    
+    #footer{
+        width: 73%;
+    }
+}
+@media screen  and (max-width: 1000px) { 
+   
+    #secheaderimg{
+        margin-left: 3%;
+        width: 100%;
+    }
+    article{
+        margin-left: 15%;
+        width: 85%;
+    }
+    .noticiario{
+        width: 90%;
+    }
+    .imagen{
+        
+        width: 32%;
+    }
+     #imm{
+        width: 100%;
+    }
+    .noticia{
+        
+    }
+    .noticia h2{
+        font-size: 20px;
+    }
+    #footer{
+        width: 90%;
+    }
 }

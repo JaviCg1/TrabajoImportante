@@ -12,47 +12,143 @@
 <header>
 		<h1 id="tit">Strenner</h1>
 		<img id="hh" src="https://seeklogo.com/images/I/Informatica_Avanzada-logo-99434D13E0-seeklogo.com.png">
+	</header>	
+		 <nav id="navbar">
+        
+           <ul class="nav">
+           <li id="luupa"><a><img id="imgnav" src="img/lupa.png"></a></li>
+           <li  class="lis" id="contac"><a href="#">Otros</a> <ul><br>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="obras.html">¿Quienes somos?</a></li>
+                <li><a href="#">Instalaciones</a></li>
+                <li><a href="obras.html">Servicios</a></li>
+                
+            </ul></li>
+           
+            <li><a href="#" class="lis" id="pcc">PC</a>
+            <ul><br>
+                <li><a href="obras.html">Hardware</a></li>
+                <li><a href="obras.html">Software</a></li>
+                <li><a href="obras.html">Portátiles Gaming</a></li>
+                <li><a href="obras.html">Sobremesas</a></li>
+                
+            </ul></li>
+            <li><a href="obras.html"  class="lis" id="video">Videojuegos</a>
+            <ul>
+                <br>
+                <li> <a href="obras.html">Avances</a></li>
+                <li> <a href="obras.html">Análisis</a></li>
+                <li> <a href="obras.html">Multiplataforma</a></li>
+                <li> <a href="obras.html">E-Sports</a></li>
+            </ul>
+            </li>
+            <li><a href="obras.html"  class="lis" id="elect">Electrónica</a>
+            <ul>
+                <br>
+                <li><a href="obras.html">Internet</a></li>
+                <li><a href="obras.html">Smarthouse</a></li>
+                <li><a href="obras.html">Perifericos</a></li>
+                <li><a href="obras.html">Sonido</a></li><br>
+                <li><a href="obras.html">Dolby</a>
+
+                </li>
+                    
+            </ul></li>
+            <li  class="lis" id="home"><a href="index.html">Home</a></li>
+            
+            </ul>
+            
+            </nav>
 		
-	</header>
+	
+	
+	
+	<aside>
+        <ul>
+           <a href="obras.html">
+            <li>
+                <div class="capa1">
+                    <img src="./img/nvidia.png">
+                </div><p>Nvidia</p>
+            </li>
+            <li>
+               <div class="capa1">
+                   <img src="./img/amd.png">
+                </div><p>AMD</p>
+                </li>
+            <li>
+            <div class="capa1">
+                <img src="./img/corsair.png">
+            </div><p>Corsair</p>
+            </li>
+            <li>
+            <div class="capa1">
+                <img src="./img/asus.png">
+            </div><p>ASUS</p>
+            </li>
+            <li>
+               <div class="capa1">
+                 <img src="./img/gigabyte.png">
+               </div><p>Gygabyte</p>
+            </li>
+            <li>
+                <div class="capa1">
+                    <img src="./img/coolermaster.png">
+                </div><p>Cooler Master</p>
+            </li>
+            <li>
+                <div class="capa1">
+                    <img src="./img/msi.png">
+                </div><p>MSI</p>
+            </li>
+            <li>
+                <div class="capa1">
+                    <img src="./img/lenovo.png">
+                </div><p>Lenovo</p>
+            </li>
+            <li>
+               <div class="capa1">
+                   <img src="./img/hp.png">
+               </div><p>HP</p>
+            </li>
+            <li>
+                <div class="capa1">
+                     <img src="./img/apple.png">
+                </div><p>Apple</p>
+            </li>
+            </a>
+        </ul>
+    </aside>
 <section id="section-con">
     <h2 id="cont-title">Contacto</h2> 
     
     <form name="formulario" method="post"
-          action=mailto:javiercalvograus@gmail.com>
+          action=mailto:javicalvograus@gmail.com>
         <fieldset>
-            <legend>Holaaaa</legend>
-            Nombre:<input type="text" name="nombre" value="" >
-                          placeholder="Pon aquì tu nombre" size="30px">
+            <legend>Información del usuario</legend>
+            <input type="text" name="nombre" placeholder="Pon aquí tu nombre" size="30px" >
+                          
             <br><br>
 
-             Apellidos:<input type="text" name="apellidos" value=""
-                           placeholder="Pon aquì tus apellidos" size="30px">
+             <input type="text" name="apellidos" placeholder="Pon aquí tus apellidos" size="30px">
+            <br><br>
+
+             <input type="email" name="apellidos" placeholder="Pon aquí tu dirección de correo" size="30px">
         </fieldset>
         <fieldset>
-        <br><br>
-        Password:<input type="password" name="pass" value=""
-                       placeholder="Pon8aquì tucontraseña" size="30px">
-        
-        <br><br>
-        Comentarios:<br>
-            <textarea placehobnlder="Pon aqui tus comentarios"></textarea>
+        <legend>Coméntanos lo que sea</legend>
+        <textarea placeholder="Pon aqui tus comentarios"></textarea>
         </fieldset>
         <br><br>
-        Acepta las condiciones y servicios  <input type="radio" name="hola" value="Bachiller">
+        He leído y acepto las condiciones de uso y servicios<input type="checkbox" name="hola" value="condiciones">
         <br>
-        Acepta las condiciones y servicios  <input type="radio" name="hola" value="Bachillerato">
+        He leído y acepto el tratamiento de mi información<input type="checkbox" name="hola" value="tratamientoInfo">
         <br><br>
         <input type="submit" value="Enviar">
-        
-        <select>
-            <option value="1">Centos</option>
-            <option value="2">Fedora</option>
-            <option value="3">Debian</option>
-        </select>
+        <input type="reset" value="Borrar todo">
         
     </form>
-    <br>
-    <button onclick=alert("holaaaaaaaaaaaaaaa")>Pincha aqui</button>
+    
 </section>
 	<footer class="footer-con">
         <div id="izq">

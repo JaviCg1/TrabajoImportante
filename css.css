@@ -73,8 +73,11 @@ article{
     width: 80%;
     margin-bottom: 40px;
     margin-top: 40px;
-    margin-left: 12%;
+    margin-left: 10%;
     display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
     text-align: center;
     
 }

@@ -8,22 +8,40 @@ html{
 
 body{
 	background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?k=6&m=537331500&s=612x612&w=0&h=VMx4K6hcGW0hLT-5dFRzUo4GFn1Uh6RR3k0n51lxRw0=);
-	
-    
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-size: cover;
-     margin: 0;
+    margin: 0;
     padding: 0;
     width: 100%; 
     
 }
+input[type="text"], input[type="password"]{
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    color: black;
+}
+input[type="submit"]{
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor::placeholder {
+  color:white;
+}
+
+
 header{
     background-color: black; 
     margin: 0;
     padding-top: 10px;
     text-align: center;
-      height: 140px; 
+    height: 140px; 
     opacity: 90%;
     text-align: center;
     color:white;
@@ -46,13 +64,13 @@ header{
 }
 section{
     margin:0 auto;
-   text-align: center;
+    text-align: center;
     z-index: 89;
    
     
 }
 article{
-width: 60%;
+    width: 60%;
     margin-bottom: 40px;
     margin-top: 40px;
     margin-left: 21%;
@@ -77,7 +95,7 @@ width: 60%;
 	align-content: right;
 }
 .noticia h2,h3{
-margin: 0px;
+    margin: 0px;
 }
 
 footer{
@@ -130,9 +148,8 @@ form{
     background-color: RGB(128, 128, 128, 90%)
 }
 #section-con{
-    
     text-align: center;
-        margin: 0 auto;
+    margin: 0 auto;
     margin-top: 30px;
 }
 .imagen{
@@ -143,15 +160,15 @@ form{
 }
 
 
-
-
 #her{
     background: black;
     height: 20px;
+    
 }
 #imgnav{
     width: 40px;
     height: 40px;
+    
 }
 nav{
     margin-top: 0px;
@@ -187,15 +204,19 @@ nav a{
       color: white;
     
       }
+#luupa:hover{
+    background-color:black;
+    color:black;
+
+}
             
 nav li:hover{
       background-color:white;
       color:black;
       }
-#luupa:hover{
-    background-color:black;
-      color:black;
-}
+
+
+
 #luupa{
     padding: 0;
 }
@@ -207,7 +228,7 @@ nav li:hover >a{
             
 nav li>ul{
       display:none;
-      }
+}
 
 nav li:hover>ul{
       display:block;
@@ -231,9 +252,6 @@ aside{
     transition-duration: 0.5s;
     padding: 0px;
     margin:0px;
-  
-    
-    
     z-index: 98;
    
     
@@ -276,6 +294,7 @@ aside p{
     margin-top: -5px;
    
 }
+
 aside li:hover{
     opacity: 100%;
     
@@ -283,22 +302,25 @@ aside li:hover{
     background-color: #0E466E;
     background-color: white;
 }
+
 aside:hover{
     width: 160px;
 }
 
-
 .noti{
     background-color: #C3CFD1;
-  min-height:   600px;
+    min-height:   600px;
     padding: 20px;
     flex-wrap: wrap;
 	border-radius: 3px;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
+
 .noti h1{
     font-size: 35px;
 }
+
+
 .imanoti{
     width: 90%;
     margin-top: 3%;
@@ -308,22 +330,24 @@ aside:hover{
     float: right;
     margin-bottom: 15px;
 }
+
 #footer {
     width: 63%;
-    
-   
     background-color: #C3CFD1;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 	border-radius: 3px;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     
 }
+
 #footer:link, #footer:visited, #footer:active{
     text-decoration: none;
 }
+
 #imgfoo{
     margin-bottom: 25px;
 }
+
 #footer img{
     width: 100%;
     margin-left: 3%;
@@ -547,3 +571,330 @@ input{
          
     }
 }
+.SegundoContenedor {
+    background-color: darkgray
+}
+#nvidia{
+    width: 1100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+#submenu_nvidia{
+    position: sticky;
+    width: 1100px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 210px;
+    background-color: black;
+    top:63px;
+    z-index: 0;
+}
+#submenu_nvidia ul{
+    list-style: none;
+    border-top-style:groove;
+    border-top-width: 4px;
+    border-top-color: white;
+    border-bottom-style:groove;
+}
+#container_nvidia_ofertas h2 i{
+    color:red;
+    margin-left: 20px;
+}
+#submenu_nvidia ul li{
+    width: 25%;
+    display: inline-block;
+    padding:0px 10px 0px 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#submenu_nvidia ul li:hover{
+    background-color: white;
+}
+#submenu_nvidia ul li:hover > a p{
+    color: black;
+}
+#submenu_nvidia ul li a{
+    text-decoration-line: none;
+    text-decoration-color: white;
+    text-emphasis-color: white;
+    
+}
+#submenu_nvidia ul li a:visited{
+    color: white;
+}
+#nvidia img{
+    margin-top: 0px;
+    width: 1100px;
+    height: 300px;
+    padding: 0px 10px 20px 10px;
+}
+#nvidia_title{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 0px 15px 0px;
+    width: 1100px;
+    margin-left:210px;
+    margin-bottom:5px;
+}
+.nvidia_product img{
+    width: 300px; 
+    border-radius: 10px;
+}
+.nvidia_product img:hover{
+    transform: scale(1.1);
+}
+.nvidia_product{
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+    
+}
+#container_nvidia_destacados{
+    width: 1100px;
+    background-color: black;
+    margin-left:210px;
+    margin-top:-40px;
+}
+#container_nvidia_destacados h2{
+    text-align: left;
+    color: black;
+    padding: 10px;
+    background-color: #76b900;
+}
+#container_nvidia_ofertas{
+    width: 1100px;
+    background-color: black;
+    margin-left:210px;
+    margin-top:-13px;
+}
+#container_nvidia_ofertas h2{
+    text-align: left;
+    color: black;
+    padding: 10px;
+    background-color: #76b900;
+}
+#container_nvidia_outlet{
+    width: 1100px;
+    background-color: black;
+    margin-left:210px;
+    margin-top:-13px;
+}
+#container_nvidia_outlet h2{
+    text-align: left;
+    color: black;
+    padding: 10px;
+    background-color: #76b900;
+}
+.nvidia_product p{
+    color: white;
+}
+.nvidia_product p a{
+    text-decoration:none;
+}
+.nvidia_product p a:visited{
+    color:white;
+}
+.comprar_nvidia{
+    background-color: #76b900;
+    width:120px;
+    padding: 1px;
+    margin: auto;
+}
+.comprar_nvidia:hover{
+    background-color: #76b900;
+}
+#amd{
+    width: 1100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+#submenu_amd{
+    position: sticky;
+    width: 1100px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 210px;
+    background-color: black;
+    top:63px;
+    z-index: 0;
+}
+#submenu_amd ul{
+    list-style: none;
+    border-top-style:groove;
+    border-top-width: 4px;
+    border-top-color: white;
+    border-bottom-style:groove;
+}
+#container_amd_ofertas h2 i{
+    color:white;
+    margin-left: 50px;
+}
+#submenu_amd ul li{
+    text-decoration: none;
+    width: 25%;
+    display: inline-block;
+    padding:0px 10px 0px 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#submenu_amd ul li:hover{
+    background-color: white;
+}
+#submenu_amd ul li:hover > a p{
+    text-decoration: none;
+    color: black;
+}
+#submenu_amd ul li a{
+    text-decoration-line: none;
+    text-decoration-color: white;
+    text-emphasis-color: white;
+    
+}
+#submenu_amd ul li a:visited{
+    color: white;
+    text-decoration: none
+}
+#amd img{
+    margin-top: 0px;
+    width: 1100px;
+    height: 300px;
+    padding: 0px 10px 20px 10px;
+}
+#amd_title{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 0px 15px 0px;
+    width: 1100px;
+    margin-left:210px;
+    margin-bottom:5px;
+}
+.amd_product img{
+    width: 300px; 
+    border-radius: 10px;
+}
+.amd_product img:hover{
+    transform: scale(1.1);
+}
+.amd_product{
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+    
+}
+#container_amd_destacados{
+    width: 1100px;
+    background-color: black;
+    margin-left:210px;
+    margin-top:-40px;
+}
+#container_amd_destacados h2{
+    text-align: left;
+    color: white;
+    padding: 10px;
+    background-color: #8E0505;
+}
+#container_amd_ofertas{
+    width: 1100px;
+    background-color: black;
+    margin-left:210px;
+    margin-top:-13px;
+}
+#container_amd_ofertas h2{
+    text-align: left;
+    color: white;
+    padding: 10px;
+    background-color: #8E0505;
+}
+#container_amd_outlet{
+    width: 1100px;
+    background-color: black;
+    margin-left:210px;
+    margin-top:-13px;
+}
+#container_amd_outlet h2{
+    text-align: left;
+    color: white;
+    padding: 10px;
+    background-color: #8E0505;
+}
+.amd_product p{
+    color: white;
+}
+.amd_product p a{
+    text-decoration:none;
+}
+.amd_product p a:visited{
+    text-decoration:none;
+    color:white;
+}
+.comprar_amd{
+    background-color: #8E0505;
+    width:120px;
+    padding: 1px;
+    margin: auto;
+}
+.comprar_amd:hover{
+    background-color: #8E0505;
+}
+
+
+
+.anun{
+    background-color: #C3CFD1;
+    min-height:   600px;
+    padding: 20px;
+    flex-wrap: wrap;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
+.analisis{
+	margin:30px auto;
+	overflow-y: auto;
+	width: 100%;
+    height: 100%;
+}
+.analisis img{
+    margin-top: 15px;;
+	width: 45%;
+    height: 30%;
+}
+.analisis div{
+	float:left;
+	margin-top: 20px;
+	text-align:justify;
+	width: 50%;
+}
+
+.fotos1{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.analisis2 div{
+    border: 0px;
+	width: 100%;
+    margin-right: 5px;
+}
+
+.cards{
+    float: left;
+	overflow-y: auto;
+}
+.imagenes1 .fotos1 img{
+	float:left;
+	padding:20px;
+	text-align: center;
+	width: 30%;
+}
+
+
+

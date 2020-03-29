@@ -241,7 +241,10 @@ nav li:hover>ul{
 #secheaderimg{
     width: 65%; 
 }
-
+.global{
+    display: flex;
+  justify-content: space-between;
+}
 
 aside{
     position: absolute;

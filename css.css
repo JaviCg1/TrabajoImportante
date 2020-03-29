@@ -66,14 +66,16 @@ section{
     margin:0 auto;
     text-align: center;
     z-index: 89;
-   
+   width: 80%;
     
 }
 article{
-    width: 60%;
+    width: 80%;
     margin-bottom: 40px;
     margin-top: 40px;
-    margin-left: 21%;
+    margin-left: 12%;
+    display: block;
+    text-align: center;
     
 }
 #imm{
@@ -239,9 +241,10 @@ nav li:hover>ul{
 
 
 #secheaderimg{
-    width: 65%; 
+    width: 90%; 
 }
 .global{
+    width: 100%;
     display: flex;
   justify-content: space-between;
 }
@@ -256,6 +259,9 @@ aside{
     padding: 0px;
     margin:0px;
     z-index: 98;
+    position: -webkit-sticky;
+      position: sticky;
+      top: 70px;
    
     
 }
@@ -307,7 +313,7 @@ aside li:hover{
 }
 
 aside:hover{
-    width: 160px;
+    width: 150px;
 }
 
 .noti{
@@ -494,7 +500,7 @@ input{
         margin-top: 2%;
     }
     article{
-        margin-left: 17%;
+        
         width: 70%;
     }
 }
